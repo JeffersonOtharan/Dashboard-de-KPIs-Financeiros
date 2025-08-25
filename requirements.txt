@@ -1,0 +1,89 @@
+# REQUISITOS PYTHON - MONITORAMENTO DE KPIs FINANCEIROS
+# Sistema de monitoramento executivo de resultados
+# Versão: 1.0
+# Data: 2024
+
+# ========================================
+# DEPENDÊNCIAS PRINCIPAIS
+# ========================================
+
+# Framework web para dashboard
+streamlit>=1.28.0
+
+# Banco de dados
+mysql-connector-python>=8.0.0
+sqlite3  # Built-in Python
+
+# ========================================
+# ANÁLISE E MANIPULAÇÃO DE DADOS
+# ========================================
+
+# Manipulação de dados
+pandas>=2.0.0
+numpy>=1.24.0
+
+# ========================================
+# VISUALIZAÇÃO E GRÁFICOS
+# ========================================
+
+# Gráficos interativos
+plotly>=5.15.0
+
+# ========================================
+# AUTOMAÇÃO E PROCESSAMENTO
+# ========================================
+
+# Processamento de arquivos
+openpyxl>=3.1.0  # Para arquivos Excel
+python-dateutil>=2.8.0  # Para manipulação de datas
+
+# ========================================
+# UTILITÁRIOS
+# ========================================
+
+# Logging e configuração
+python-dotenv>=1.0.0  # Para variáveis de ambiente
+
+# Validação de dados
+pydantic>=2.0.0  # Para validação de schemas
+
+# ========================================
+# TESTES (OPCIONAL)
+# ========================================
+
+# Framework de testes
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# ========================================
+# DESENVOLVIMENTO (OPCIONAL)
+# ========================================
+
+# Linting e formatação
+black>=23.0.0
+flake8>=6.0.0
+
+# ========================================
+# VERSÕES COMPATÍBLES
+# ========================================
+
+# Python 3.8+ é requerido
+# Todas as dependências são testadas com Python 3.8, 3.9, 3.10, 3.11
+
+# ========================================
+# INSTALAÇÃO
+# ========================================
+
+# Para instalar todas as dependências:
+# pip install -r requirements.txt
+
+# Para instalar apenas as essenciais:
+# pip install streamlit plotly pandas numpy mysql-connector-python
+
+# ========================================
+# NOTAS
+# ========================================
+
+# - sqlite3 é built-in do Python, não precisa instalar
+# - Algumas dependências podem ter conflitos de versão
+# - Em caso de problemas, use versões específicas listadas acima
